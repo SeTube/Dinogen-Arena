@@ -17409,9 +17409,9 @@ var DinogenArena;
             this.game.load.audio("vox_char_enemy_seen_dino_4", "" + cdn.url + "/assets/sounds/vox/char/vox_char_enemy_seen_dino_4.mp3");
             this.game.load.audio("vox_char_enemy_seen_dino_5", "" + cdn.url + "/assets/sounds/vox/char/vox_char_enemy_seen_dino_5.mp3");
             /* FILTERS */
-            this.game.load.script("BlurX", "lib/BlurX.js");
-            this.game.load.script("BlurY", "lib/BlurY.js");
-            this.game.load.script("Gray", "lib/Gray.js");
+            this.game.load.script("BlurX", "" + cdn.url + "/lib/BlurX.js");
+            this.game.load.script("BlurY", "" + cdn.url + "/lib/BlurY.js");
+            this.game.load.script("Gray", "" + cdn.url + "/lib/Gray.js");
         };
         PreloaderState.prototype.create = function () {
             this.onLoadComplete();
